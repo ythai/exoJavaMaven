@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b24e500-f2d3-4a78-ba4f-d24b2eff29ae" name="Changes" comment="exo114">
+    <list default="true" id="3b24e500-f2d3-4a78-ba4f-d24b2eff29ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Camion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Vehicule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Voiture.java" afterDir="false" />
     </list>
@@ -16,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Exo2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,7 +191,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Exo1" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
