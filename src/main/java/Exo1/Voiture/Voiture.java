@@ -13,7 +13,11 @@ public class Voiture {
         setModele(modele);
     }
 
-    public Voiture(){}
+    public Voiture(){
+        this.couleur = "blanc";
+        this.marque = "Renault";
+        this.modele = "Megane";
+    }
 
     public void demarrer(){
         demarre = true;
