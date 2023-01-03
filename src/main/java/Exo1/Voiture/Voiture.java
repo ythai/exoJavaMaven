@@ -7,9 +7,13 @@ public class Voiture {
     int compteur = 0;
     boolean demarre = false;
 
-    public Voiture(){
-
+    public Voiture(String couleur, String marque, String modele){
+        this.couleur = couleur;
+        this.marque = marque;
+        this.modele = modele;
     }
+
+    public Voiture(){}
 
     public void demarrer(){
         demarre = true;
