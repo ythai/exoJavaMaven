@@ -1,16 +1,16 @@
 package Exo1.Voiture;
 
 public class Voiture {
-    String couleur;
+    private String couleur;
     private String marque;
-    String modele;
-    int compteur = 0;
-    boolean demarre = false;
+    private String modele;
+    private int compteur = 0;
+    private boolean demarre = false;
 
     public Voiture(String couleur, String marque, String modele){
-        this.couleur = couleur;
+        setCouleur(couleur);
         setMarque(marque);
-        this.modele = modele;
+        setModele(modele);
     }
 
     public Voiture(){}
@@ -20,7 +20,10 @@ public class Voiture {
     }
 
     public void avancer(int km){
-        compteur += km;
+        if(km < 0)
+            System.out.println("Le compteur doit toujours être incrémenté donc pas de valeur negatif : " + km);
+        else
+            compteur += km;
     }
 
     public void arreter(){
@@ -36,10 +39,34 @@ public class Voiture {
         System.out.println("Moteur demarre ? : " + demarre);
     }
 
+    public String getCouleur() {
+        return couleur;
+    }
+
+    public void setCouleur(String couleur) {
+        if(couleur.equalsIgnoreCase("bleu") || couleur.equalsIgnoreCase("blanc") || couleur.equalsIgnoreCase("rouge"))
+            this.couleur = couleur;
+        else
+            System.out.println("La couleur doit être « bleu », « blanc » ou « rouge » or vous avez selectionne du " + couleur);
+    }
+
+    public String getMarque() {
+        return marque;
+    }
+
     public void setMarque(String marque){
         if(marque.equalsIgnoreCase("Renault") || marque.equalsIgnoreCase("Dacia"))
             this.marque = marque;
         else
-            System.out.println("Erreur");
+            System.out.println("La marque doit être « Renault » ou « Dacia » or vous avez selectionne du " + marque);
+    }
+
+    public String getModele() {
+        return modele;
+    }
+
+    public void setModele(String modele) {
+        this.modele = modele;
     }
 }
+
