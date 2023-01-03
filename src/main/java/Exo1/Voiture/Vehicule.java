@@ -7,7 +7,9 @@ public abstract class Vehicule {
     private int compteur = 0;
     private boolean demarre = false;
 
-    private String type;
+    private static int nbInstances = 0;
+
+    private static String type;
 
     public Vehicule(String couleur, String marque, String modele){
         setCouleur(couleur);
@@ -19,6 +21,7 @@ public abstract class Vehicule {
         this.couleur = "Blanc";
         this.marque = "Renault";
         this.modele = "Megane";
+        this.type = "vehicule";
     }
 
     public void demarrer(){
@@ -38,11 +41,20 @@ public abstract class Vehicule {
 
     public void afficher(){
         System.out.println("-- Infos sur le véhicule --");
+        System.out.println("type : " + type);
         System.out.println("couleur : " + couleur);
         System.out.println("Marque : " + marque);
         System.out.println("Modèle : " + modele);
         System.out.println("compteur : " + compteur);
         System.out.println("Moteur demarre ? : " + demarre);
+    }
+
+    public static void IncrementerNbInstances(){
+        setNbInstances(getNbInstances()+1);
+    }
+
+    public static void decrire(){
+        System.out.println("Coucou, je suis un vehicule");
     }
 
     public String getCouleur() {
@@ -73,6 +85,22 @@ public abstract class Vehicule {
 
     public void setModele(String modele) {
         this.modele = modele;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public static int getNbInstances() {
+        return nbInstances;
+    }
+
+    public static void setNbInstances(int nbInstances) {
+        Vehicule.nbInstances = nbInstances;
     }
 }
 

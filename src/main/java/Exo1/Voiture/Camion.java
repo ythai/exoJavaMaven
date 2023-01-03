@@ -4,10 +4,16 @@ public class Camion extends Vehicule {
 
     public Camion(){
         super();
-        this.setModele("T440");
+        setModele("T440");
+        setType("camion");
+        Vehicule.IncrementerNbInstances();
     }
 
     private int charge;
+
+    public static void decrire(){
+        System.out.println("Coucou, je suis un camion");
+    }
 
     public int getCharge() {
         return charge;
