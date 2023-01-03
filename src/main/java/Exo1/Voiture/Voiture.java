@@ -2,14 +2,14 @@ package Exo1.Voiture;
 
 public class Voiture {
     String couleur;
-    String marque;
+    private String marque;
     String modele;
     int compteur = 0;
     boolean demarre = false;
 
     public Voiture(String couleur, String marque, String modele){
         this.couleur = couleur;
-        this.marque = marque;
+        setMarque(marque);
         this.modele = modele;
     }
 
@@ -34,5 +34,12 @@ public class Voiture {
         System.out.println("Modèle : " + modele);
         System.out.println("compteur : " + compteur);
         System.out.println("Moteur demarre ? : " + demarre);
+    }
+
+    public void setMarque(String marque){
+        if(marque.equalsIgnoreCase("Renault") || marque.equalsIgnoreCase("Dacia"))
+            this.marque = marque;
+        else
+            System.out.println("Erreur");
     }
 }
