@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b24e500-f2d3-4a78-ba4f-d24b2eff29ae" name="Changes" comment="exo123 et 124">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculatrice/Calculatrice.java" afterDir="false" />
+    <list default="true" id="3b24e500-f2d3-4a78-ba4f-d24b2eff29ae" name="Changes" comment="Calculatrice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Calculatrice" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,17 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Yvan/Documents/GitHub/exoJavaMaven",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yvan/Documents/GitHub/exoJavaMaven&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yvthai\IdeaProjects\JavaExo\src\main\java\Exo1\Voiture" />
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672744049220</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Calculatrice">
+      <created>1672759007643</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672759007643</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +202,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Calculatrice" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -217,6 +222,7 @@
     <MESSAGE value="exo113" />
     <MESSAGE value="exo114" />
     <MESSAGE value="exo121 et 122" />
-    <option name="LAST_COMMIT_MESSAGE" value="exo121 et 122" />
+    <MESSAGE value="Calculatrice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculatrice" />
   </component>
 </project>
