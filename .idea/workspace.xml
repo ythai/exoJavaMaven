@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b24e500-f2d3-4a78-ba4f-d24b2eff29ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Camion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Vehicule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Camion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Vehicule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exo1/Voiture/Voiture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672743587517</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="exo211">
+      <created>1672744049220</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672744049220</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +198,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="Exo2" />
                       </list>
                     </value>
                   </entry>
@@ -210,6 +217,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="exo113" />
     <MESSAGE value="exo114" />
-    <option name="LAST_COMMIT_MESSAGE" value="exo114" />
+    <MESSAGE value="exo121 et 122" />
+    <option name="LAST_COMMIT_MESSAGE" value="exo121 et 122" />
   </component>
 </project>
